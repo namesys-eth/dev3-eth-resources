@@ -477,11 +477,11 @@
      pagecolor="#ffffff"
      bordercolor="#666666"
      borderopacity="1.0"
-     inkscape:pageopacity="1"
+     inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.4254587"
+     inkscape:zoom="1.370341"
      inkscape:cx="272.72441"
-     inkscape:cy="239.55814"
+     inkscape:cy="157.09691"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -612,7 +612,10 @@
        style="font-size:4.73541px;line-height:1.25;font-family:Palatino;-inkscape-font-specification:Palatino;font-variant-ligatures:none;text-align:center;letter-spacing:-0.0308542px;text-anchor:middle;fill:#ff4400;fill-opacity:0.862903;stroke:#ff5900;stroke-width:0.0896486;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="-1635.536"
        y="90.12487"
-       id="text847"><tspan
+       id="text847"
+       inkscape:export-filename="/Users/sshmatrix/Idee/sshmatrix/Buidl/namesys-eth/dev3-eth-resources/graphics/png/logo.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan845"
          x="-1635.5514"
@@ -623,7 +626,10 @@
        style="font-size:4.73541px;line-height:1.25;font-family:Palatino;-inkscape-font-specification:Palatino;font-variant-ligatures:none;text-align:center;letter-spacing:-0.0308542px;text-anchor:middle;fill:#000000;fill-opacity:0.596774;stroke:#000000;stroke-width:0.0896486;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.596078"
        x="-1655.0901"
        y="90.127235"
-       id="text847-8"><tspan
+       id="text847-8"
+       inkscape:export-filename="/Users/sshmatrix/Idee/sshmatrix/Buidl/namesys-eth/dev3-eth-resources/graphics/png/logo.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan845-40"
          x="-1655.1055"
@@ -631,7 +637,10 @@
          style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:4.73541px;font-family:'NGC 292';-inkscape-font-specification:'NGC 292, ';fill:#000000;fill-opacity:0.596774;stroke:#000000;stroke-width:0.0896486;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.596078">by</tspan></text>
     <g
        id="g1847-0"
-       transform="matrix(0.01860843,0,0,0.01860843,-1620.7668,89.275474)">
+       transform="matrix(0.01860843,0,0,0.01860843,-1620.7668,89.275474)"
+       inkscape:export-filename="/Users/sshmatrix/Idee/sshmatrix/Buidl/namesys-eth/dev3-eth-resources/graphics/png/logo.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300">
       <path
          style="fill:url(#linearGradient1685-5);fill-opacity:1;fill-rule:evenodd;stroke:none;stroke-width:0;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
          d="M 55.320185,79.506781 86.51199,-102.71899 117.70379,17.670414 Z"
@@ -670,7 +679,10 @@
        style="font-size:26.3191px;line-height:1.25;font-family:Palatino;-inkscape-font-specification:Palatino;font-variant-ligatures:none;text-align:center;letter-spacing:-0.171485px;text-anchor:middle;fill:#ff4400;fill-opacity:0.862903;stroke:#ff5900;stroke-width:0.49826;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="-1632.3972"
        y="110.04139"
-       id="text847-6-8"><tspan
+       id="text847-6-8"
+       inkscape:export-filename="/Users/sshmatrix/Idee/sshmatrix/Buidl/namesys-eth/dev3-eth-resources/graphics/png/logo.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan845-4-9"
          x="-1632.4829"
@@ -681,7 +693,10 @@
        style="font-size:17.9631px;line-height:1.25;font-family:Palatino;-inkscape-font-specification:Palatino;font-variant-ligatures:none;text-align:center;letter-spacing:-0.117041px;text-anchor:middle;fill:#ff4400;fill-opacity:0.862903;stroke:#ff5900;stroke-width:0.340068;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="-1590.1315"
        y="93.124039"
-       id="text847-6-8-3"><tspan
+       id="text847-6-8-3"
+       inkscape:export-filename="/Users/sshmatrix/Idee/sshmatrix/Buidl/namesys-eth/dev3-eth-resources/graphics/png/logo.png"
+       inkscape:export-xdpi="300"
+       inkscape:export-ydpi="300"><tspan
          sodipodi:role="line"
          id="tspan845-4-9-7"
          x="-1590.1899"
