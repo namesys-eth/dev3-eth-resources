@@ -1,10 +1,10 @@
 ![](https://raw.githubusercontent.com/namesys-eth/dev3-eth-resources/main/graphics/png/logo.png)
 
-Dear ENS Developers, Ethusiasts & Community,
+Dear ENS Developers, Enthusiasts & Community,
 
 ### 🚀 &nbsp;We are glad to announce the mainnet launch of our free subdomain project `dev3.eth`&nbsp; 🚀 
 
-#### 💡 `dev3.eth` is a free subdomain project soulbound to the Github ecosystem. Any Github `arachnid` can redeem their soulbound subdomain `arachnid.dev3.eth` and host their subdomain's records on their Github Pages deployment with simple issues of commands such as `npm run init` and `npm run sign` in their consoles! Read more about `dev3.eth` below 👇
+#### 💡 `dev3.eth` is a free subdomain project soulbound to the Github ecosystem. Any Github user [`arachnid`](https://github.com/arachnid) can redeem their soulbound subdomain `arachnid.dev3.eth` and host their subdomain's records on their Github Pages deployment with simple issues of commands such as `npm run init` and `npm run sign` in their consoles! Read more about `dev3.eth` below 👇
 
 # About
 
