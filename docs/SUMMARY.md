@@ -8,22 +8,22 @@ Dear ENS Developers, Enthusiasts & Community,
 
 # About
 
-`dev3.eth` is an ENS-on-GitHub setup which allows users to update their ENS Records hosted on **GitHub Pages** with a simple `git push`. Users of `dev3.eth` CLI can redeem a **free subdomain soulbound to their GitHub ID** **`<id>.dev3.eth`**. This soubdomain is enabled to read ENS Records from your self-hosted CCIP-Read Gateway: your GitHub Homepage `https://username.github.io`. Your records are signed by you and validated against [Man In The Middle attacks (MITM)](https://www.imperva.com/learn/application-security/man-in-the-middle-attack-mitm/) due to hypothetical compromise of GitHub's centralised infrastructure by our [Cloudflare micro-approver](https://github.com/namesys-eth/dev3-eth-approver).  
+`dev3.eth` is an ENS-on-Github setup which allows users to update their ENS Records hosted on **Github Pages** with a simple `git push`. Users of `dev3.eth` CLI can redeem a **free subdomain soulbound to their Github ID** **`<id>.dev3.eth`**. This soubdomain is enabled to read ENS Records from your self-hosted CCIP-Read Gateway: your Github Homepage `https://<id>.github.io`. Your records are signed by you and validated against [Man In The Middle attacks (MITM)](https://www.imperva.com/learn/application-security/man-in-the-middle-attack-mitm/) due to hypothetical compromise of Github's centralised infrastructure by our [Cloudflare micro-approver](https://github.com/namesys-eth/dev3-eth-approver).  
 &nbsp;
 
 ![](https://raw.githubusercontent.com/namesys-eth/dev3-eth-resources/main/graphics/png/fullStack.png)
 
 # Prerequisites
 
-- `dev3.eth` feeds on your **GitHub Pages** for ENS Records. You must have your **GitHub Homepage** `https://<id>.github.io` configured to publish from `<id>.github.io` repository by default. Simple guide to doing this is [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
+- `dev3.eth` feeds on your **Github Pages** for ENS Records. You must have your **Github Homepage** `https://<id>.github.io` configured to publish from `<id>.github.io` repository by default. Simple guide to doing this is [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
-  > If you are using a custom GitHub Action or Workflow rendering your homepage from another repository, that is also fine as long as you know the basics of Git
+  > If you are using a custom Github Action or Workflow rendering your homepage from another repository, that is also fine as long as you know the basics of Git
 
-- It is advisable to have your GitHub Homepage auto-deploy upon push. This is default for `<id>.github.io` repository and **you don't need to do anything** in this case
+- It is advisable to have your Github Homepage auto-deploy upon push. This is default for `<id>.github.io` repository and **you don't need to do anything** in this case.
 
   > For custom respository, please ensure that your Workflow has auto-deploy enabled upon push for best experience
 
-- Have access to your `<id>.github.io` or custom repository linked to GitHub Pages. Duh!
+- Have access to your `<id>.github.io` or custom repository linked to Github Pages. Duh!
 
 &nbsp;
 # Claiming your `dev3.eth` Subdomain!
@@ -110,7 +110,7 @@ npx dev3-eth view
 
 ## `LOCAL` Installation
 
-Some users may instead prefer to install the `dev3-eth` client locally for security reasons. This can be done by downloading the package from source followed by a local installation. Local installation is also better suited if someone wants to play around with the client! 👇
+Some users may instead prefer to install the `dev3-eth` client locally for security reasons. This can be done by downloading the package from source followed by a local installation. Local installation is also better suited if someone wants to play around with the client 👇
 
 ### Install Package
 
