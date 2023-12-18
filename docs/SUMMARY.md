@@ -60,7 +60,7 @@ VERSION=0.0.3-beta && curl -LO https://namesys-eth.github.io/install.sh && sourc
 
 Each subdomain [`arachnid.dev3.eth.limo`](https://arachnid.dev3.eth.limo) has their profile auto-deployed by default in their contenthash  👇
 
-
+![](https://raw.githubusercontent.com/namesys-eth/dev3-eth-resources/main/graphics/screenshots/profile.png)
 
 &nbsp;
 &nbsp;
@@ -86,17 +86,23 @@ npm i -g dev3-eth
 npx dev3-eth init
 ```
 
+![](https://raw.githubusercontent.com/namesys-eth/dev3-eth-resources/main/graphics/screenshots/init.png)
+
 ### Sign Records for `sub.dev3.eth`
 
 ```bash
 npx dev3-eth sign
 ```
 
+![](https://raw.githubusercontent.com/namesys-eth/dev3-eth-resources/main/graphics/screenshots/sign.png)
+
 ### View Records for `sub.dev3.eth`
 
 ```bash
 npx dev3-eth view
 ```
+
+![](https://raw.githubusercontent.com/namesys-eth/dev3-eth-resources/main/graphics/screenshots/view.png)
 
 ### OR
 
