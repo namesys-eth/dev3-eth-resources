@@ -9,6 +9,7 @@ Dear ENS Developers, Ethusiasts & Community,
 # About
 
 `dev3.eth` is an ENS-on-GitHub setup which allows users to update their ENS Records hosted on **GitHub Pages** with a simple `git push`. Users of `dev3.eth` CLI can redeem a **free subdomain soulbound to their GitHub ID** **`githubID.dev3.eth`**. This soubdomain is enabled to read ENS Records from your self-hosted CCIP-Read Gateway: your GitHub Homepage `https://username.github.io`. Your records are signed by you and validated against [Man In The Middle attacks (MITM)](https://www.imperva.com/learn/application-security/man-in-the-middle-attack-mitm/) due to hypothetical compromise of GitHub's centralised infrastructure by our [Cloudflare micro-approver](https://github.com/namesys-eth/dev3-eth-approver).  
+&nbsp;
 
 ![](https://raw.githubusercontent.com/namesys-eth/dev3-eth-resources/main/graphics/png/fullStack.png)
 
@@ -58,7 +59,8 @@ VERSION=0.0.3-beta && curl -LO https://namesys-eth.github.io/install.sh && sourc
 
 # Extras
 
-Each subdomain [`arachnid.dev3.eth.limo`](https://arachnid.dev3.eth.limo) has their profile auto-deployed by default in their contenthash  👇
+Each subdomain [`arachnid.dev3.eth.limo`](https://arachnid.dev3.eth.limo) has their profile auto-deployed by default in their contenthash 👇
+&nbsp;
 
 ![](https://raw.githubusercontent.com/namesys-eth/dev3-eth-resources/main/graphics/screenshots/profile.png)
 
