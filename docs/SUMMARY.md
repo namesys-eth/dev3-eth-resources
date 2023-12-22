@@ -1,27 +1,34 @@
 ![](https://raw.githubusercontent.com/namesys-eth/dev3-eth-resources/main/graphics/png/logo.png)
+&nbsp;
 
-Dear ENS Developers, Enthusiasts & Community,
+#### Dear ENS Developers, Enthusiasts & Community,
 
 ### 🚀 &nbsp;We are glad to announce the mainnet launch of our free subdomain project `dev3.eth`&nbsp; 🚀 
 
-#### 💡 `dev3.eth` is a free subdomain project soulbound to the Github ecosystem. Any Github user [`arachnid`](https://github.com/arachnid) can redeem their soulbound subdomain `arachnid.dev3.eth` and host their subdomain's records on their Github Pages deployment with simple issues of commands such as `npm run init` and `npm run sign` in their consoles! Read more about `dev3.eth` below 👇
+#### 👉 `dev3.eth` is a free subdomain project soulbound to the Github ecosystem. Github user [`arachnid`](https://github.com/arachnid) can redeem their soulbound subdomain `arachnid.dev3.eth` and host their subdomain's records on Github Pages with simple commands such as `npm run init` and `npm run sign` in their consoles! Read more about `dev3.eth` below 👇
 
 # About
 
-`dev3.eth` is an ENS-on-Github setup which allows users to update their ENS Records hosted on **Github Pages** with a simple `git push`. Users of `dev3.eth` CLI can redeem a **free subdomain soulbound to their Github ID** **`<id>.dev3.eth`**. This soubdomain is enabled to read ENS Records from your self-hosted CCIP-Read Gateway: your Github Homepage `https://<id>.github.io`. Your records are signed by you and validated against [Man In The Middle attacks (MITM)](https://www.imperva.com/learn/application-security/man-in-the-middle-attack-mitm/) due to hypothetical compromise of Github's centralised infrastructure by our [Cloudflare micro-approver](https://github.com/namesys-eth/dev3-eth-approver).  
+`dev3.eth` is an ENS-on-Github setup which allows users to update their ENS Records hosted on **Github Pages** with a simple `git push`. Users of `dev3.eth` CLI can redeem a **free subdomain soulbound to their Github ID** **`<id>.dev3.eth`**. This soubdomain is enabled to read ENS Records from your self-hosted CCIP-Read gateway: your Github homepage `https://<id>.github.io`. Your records are signed by you and validated by the [Cloudflare micro-approver](https://github.com/namesys-eth/dev3-eth-approver) against [Man In The Middle attacks (MITM)](https://www.imperva.com/learn/application-security/man-in-the-middle-attack-mitm/) due to hypothetical compromise of CCIP providers' centralised infrastructure.  
 &nbsp;
 
 ![](https://raw.githubusercontent.com/namesys-eth/dev3-eth-resources/main/graphics/png/fullStack.png)
 
-# Prerequisites
+#### `CLI`: [`namesys-eth/dev3-eth-cli`](https://github.com/namesys-eth/dev3-eth-cli)
+
+#### `Resolver`: [`namesys-eth/dev3-eth-resolver`](https://github.com/namesys-eth/dev3-eth-resolver)
+
+#### `Docs`: [`dev3.eth.limo`](https://dev3.eth.limo)
+
+# Pre-requisites
 
 - `dev3.eth` feeds on your **Github Pages** for ENS Records. You must have your **Github Homepage** `https://<id>.github.io` configured to publish from `<id>.github.io` repository by default. Simple guide to doing this is [here](https://docs.github.com/en/pages/getting-started-with-github-pages/creating-a-github-pages-site).
 
   > If you are using a custom Github Action or Workflow rendering your homepage from another repository, that is also fine as long as you know the basics of Git
 
-- It is advisable to have your Github Homepage auto-deploy upon push. This is default for `<id>.github.io` repository and **you don't need to do anything** in this case.
+- It is advisable to have your Github homepage **auto-deploy** upon push. This is default for `<id>.github.io` repository and **you don't need to do anything** in this case.
 
-  > For custom respository, please ensure that your Workflow has auto-deploy enabled upon push for best experience
+  > For custom respository, please ensure that your Workflow has **auto-deploy** enabled upon push for best experience.
 
 - Have access to your `<id>.github.io` or custom repository linked to Github Pages. Duh!
 
@@ -49,12 +56,12 @@ Install `dev3-eth` CLI **locally** in your `<id>.github.io` or custom repository
 | `GLOBAL` | `npm i -g dev3-eth`  | `npx dev3-eth init` | `npx dev3-eth sign` | `npx dev3-eth status` |
 | `LOCAL`  | `[1]`                | `npm run init`      | `npm run sign`      | `npm run status`      |
 
-> 💡 **HINT:** If you encounter `Permission Denied` error for `npx dev3` executable, allow it to run with: `chmod +x <path>/.bin/dev3`
+> 💡 **HINT:** If you encounter `Permission Denied` error for `npx dev3-eth` executable, allow it to run with: `chmod +x <path>/.bin/dev3-eth`
 
 ### `[1]`
 
 ```bash
-VERSION=0.0.3-beta && curl -LO https://namesys-eth.github.io/install.sh && source install.sh
+VERSION=0.0.4-beta && curl -LO https://namesys-eth.github.io/install.sh && source install.sh
 ```
 
 # Extras
@@ -110,12 +117,12 @@ npx dev3-eth view
 
 ## `LOCAL` Installation
 
-Some users may instead prefer to install the `dev3-eth` client locally for security reasons. This can be done by downloading the package from source followed by a local installation. Local installation is also better suited if someone wants to play around with the client 👇
+Some users may instead prefer to install the `dev3-eth` client locally for security reasons. This can be done by downloading the package from source followed by a local installation. Local installation is also **better suited if someone wants to play around with the client** 👇
 
 ### Install Package
 
 ```bash
-VERSION=0.0.3-beta && curl -LO https://namesys-eth.github.io/install.sh && source install.sh
+VERSION=0.0.4-beta && curl -LO https://namesys-eth.github.io/install.sh && source install.sh
 ```
 
 ### Initialise `sub.dev3.eth` 
